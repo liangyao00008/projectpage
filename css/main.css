@@ -1,0 +1,221 @@
+/*------------------------------------content------------------------------------*/
+*{
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0;
+}
+.header{
+	height: 100px;
+	width: 100%;
+	color: white;
+	animation:myfirst 3s infinite; /*animation 时间 播放次数*/
+	animation-direction:alternate; /*是否循环交替反向播放动画*/  
+	border-radius: 5px;
+	margin-bottom: 5px;}
+	@keyframes myfirst
+	{
+		0% {background:#00abdb;}
+		/*50% {background:#00FFFF;}*/
+		100% {background:#0070ad;}
+	}
+.header a{
+	margin-left: 10px;
+	font-size: 16px;
+	/*font-weight: bold;*/
+	color: white;
+}	
+.header a:hover{
+	color: #064e7b;
+	text-decoration: none;
+}
+.headiv{
+	height: 25px;
+	/*margin-top: 20px;*/
+	margin-left: 1000px;
+}
+.top_logo{position: relative;}
+.logo{
+	position: absolute;
+	height:70px;
+	margin: 0;
+	padding: 0px;
+	top: -13px;
+	left: -20px;
+}
+.active{
+	margin-left: 130px;
+}
+.contentLeft{
+	background-color:#f8f8f8 
+	width: 25%;
+	border-right: 1px solid  #f0f0f0;
+	border-radius:5px;
+	height: 500px;
+	/*padding-right: 15px;*/
+}
+.contentLeft ul{
+	list-style: none;
+	width: 92%;
+	margin: 20px 0px 10px 5px;
+}
+.contentLeft i:first-child{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contentLeft i:last-child{
+    float: right;
+    margin-right: 20px;
+    font-size: 17px;
+}
+.contentLeft li{
+    /*height: 30px;*/
+    line-height: 25px;
+    font-weight: bold;
+    border-bottom: solid 1px #e2e2e2;
+    padding: 10px 0px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 15px;
+}
+nav{
+	/*text-align: center;*/
+    height: 500px;
+    vertical-align: top;
+    overflow-x: hidden;
+    transition: width 0.2s;
+    border-right: 1px solid #e2e2e2;
+}
+nav ul{margin: 0px;}
+nav li{
+    padding: 10px 0;
+    list-style: none;
+    font-size: 18px;
+}
+nav li:hover{
+	
+}
+nav dl{
+    display: none;
+}
+nav a{
+	padding: 15px 100px;
+}
+nav a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #0070ad;
+	color: white;
+}
+nav a:focus{
+	background-color: #0070ad;
+}
+.login{
+	height: 350px;
+	width: 500px;
+	background-color: #0070ad;
+	margin:0 auto;
+	margin-top: 20px;
+	/*margin:10px 10px 10px 100px;*/
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	padding-right: 20px;
+}
+.login h3{
+	text-align: center;
+}
+.allNav .sub{
+	margin: 15px 0 0px 20px;
+}
+.contentRight{
+    width: 75%;
+    /*background-color: #f0f0f0;*/
+    margin-bottom: 10px ;
+    border: 1px solid  #f0f0f0;
+    border-radius: 5px;
+    background-image: url(images/image1.png);
+    background-repeat: no-repeat;
+    /*overflow: auto;*/
+}
+
+/*------------------------------------home-----------------------------------*/
+.login h3{
+	margin-top: 15px;
+}
+#inputEmail{
+	margin-top: 15px;
+}
+#inputPassword{
+	margin-top: 20px;
+}
+.log{
+	height: 30px;
+	width: 70px;
+	margin-top: 20px;
+}
+
+
+
+
+
+/*------------------------------------home-----------------------------------*/
+#home{
+	width: 100%;
+	color: black;
+	/*height: 500px;*/
+}
+.main,.experience,.talent{
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	height: 40px;
+	width: 100%;
+	margin: 20px 0px 20px 5px;
+}
+#home .basic_info form{
+	margin: 0 auto;
+	width: 94%;
+}
+#home table tr{
+	height: 35px !important;
+	margin-top: 10px !important;
+}
+#home .basic_info table th{
+	background-color: #0070ad;
+	font-weight: bold !important;
+	height: 35px !important;
+}
+#home .main_input{
+	margin-left:30px;
+	width: 94%;
+	font-size: 13px;
+}
+#home form input{
+	height: 35px !important;
+	width: 100%;
+	border: none !important;
+	background-color:#ecf1fb;
+	font-size: 13px;
+	padding: 0px !important;
+	margin: 0px !important;
+	border-radius: 2px;
+}
+#home .basic_info table{
+	/*height: 800px;*/
+	width: 92%;
+	text-align: center;
+	margin: 0 auto;
+}
+#home .th{
+	background-color: #0070ad;
+	font-weight: bold !important;
+	height: 25px !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+
+
+
